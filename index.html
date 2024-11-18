@@ -1,19 +1,42 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Spin-off of "Challenge: A picture-perfect trip"</title>
         <meta charset="utf-8">
+        <title>Welcome to the world of Evan</title>
+        <style>
+            #greeting {
+                background: rgb(255, 255, 0);
+                border: 2px solid black;
+                font-family: "Comic Sans MS", fantasy;
+                padding: 5px;
+             
+                width: 262px;
+                position:absolute;
+                top:21px;
+            left:1px;
+            z-index:3;
+            }
+            
+            #creature {
+            
+            position:absolute;
+            top:60px;
+            left:125px;
+             z-index:2;
+            
+            }
+        </style>
     </head>
     <body>
-        <h1>Welcome to the World of Evan</h1>
         
-        <p>I would see scenes like...</p>
-        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/spunky-sam-red.png" alt='tomato' width="144"  >
-        <p>And animals like...</p>
-        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/starky-tree.png" alt="donkey" width="129"   > 
-        <p>And eat food like...</p>
-      <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/fish_grilled-snapper.png"alt="fish" width="234" >  
-    
+        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300">
         
+        <div id="greeting">
+            <p>Hello! Welcome to position planet!</p>
+        </div>
+        
+        <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
+        
+
     </body>
 </html>
